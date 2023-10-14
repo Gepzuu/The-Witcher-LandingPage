@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: rgb(10, 9, 9);
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(head2.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo
+{
+    width: 150px;
+    margin-top: 18px;
+    margin-left: 130px;
+
+}
+nav button{
+    margin-right: 130px;
+    width: 100px;
+    border-radius: 3px;
+    height: 5vh;
+    font-size: 13px;
+    background-color: #FAF3F0;
+    color: #000000;
+    cursor: pointer;
+    border: 0;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.lang{
+    font-size: 13px;
+    color: #FAF3F0;
+    margin-right: 40px;
+    border: 1px solid #FAF3F0;
+    background: transparent;
+    padding-bottom: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 100px;
+    font-weight: bold;
+    height: 4vh;
+}
+.lang img{
+    width: 10px;
+    margin-left: 10px;
+  
+
+}
+.headcontent
+{
+    color: #FAF3F0;
+    text-align:right;
+    margin-right: 8vh;
+    margin-top: 210px;
+}
+
+.headcontent h1{
+    font-size: 70px;
+    font-weight: 550;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+.headcontent h3{
+   font-weight:500;
+   margin-top: 18px;
+   
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.headcontent p{
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: large;
+    font-weight: bold;
+    color: #ff1313;
+}
+form{
+    margin-top: 20px;
+
+}
+.email{
+    width: 400px;
+    height: 7vh;
+    background-color: rgb(24 23 23);
+    border: 1px solid #fff;
+    padding-left: 10px;
+    color: #fff;
+    
+
+}
+input::placeholder
+{
+    color: #fff;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 20px #FAF3F0;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+  }
+  
+  .btn:active {
+    scale: 0.92;
+  }
+  
+  .btn:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(30, 38, 53, 0.681) 0%, rgba(232, 65, 31, 0.873) 60%);
+    color: rgb(0, 0, 0);
+  }
+
+
+.feature
+{
+    color: #FAF3F0;
+    padding: 55px 12%;
+    font-size: 22px;
+}
+.row
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.textcol
+{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+.imgcol
+{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    
+}
+.imgcol img{
+    display: block;
+    width: 90%;
+    
+}
+.feature h1{
+    font-size: 50px;
+    font-weight:900;
+    margin-bottom: 20px;
+}
+.act{
+    padding-left: 3%;
+
+}
+
+.footer{
+   text-align:  center;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #FAF3F0;
+}
+

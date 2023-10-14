@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.logo2 img
+{
+    width: 150px;
+    margin-top: 18px;
+    margin-left: 130px;
+}
+
+
+.full
+{
+    width: 100%;
+    height: 100vh;
+   
+   
+    background-image: linear-gradient(rgba(24, 21, 21, 0.7),rgba(13, 12, 12, 0.445)),url(head1.jpg );
+    background-position: center;
+    background-size:cover;
+}
+.formbox
+{background-color: rgba(0, 0, 0, 0.671);
+    height: 83vh;
+    width: 425px;
+    margin-left: 35%;
+    padding-top: 1%;
+    border-radius: 5px;
+
+    
+}
+
+.formbox h1{
+    
+    margin-top: 50px;
+    color: white;
+    margin-left: 89px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+
+.inputbox
+{
+    margin: 30px;
+    margin-left: 50px;
+    color: aliceblue;
+}
+.inputbox input
+{
+    height: 7vh;
+    width: 300px;
+    padding-left: 20px;
+    background-color:#dddddd;
+    border: none;
+    font-size: 15px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.forget
+{
+    margin: 30px;
+    margin-left: 60px;
+    color: white;
+   
+}
+.forget button
+{
+   
+    margin-top: 20px;
+    width: 150px;
+    height: 5vh;
+    background-color:rgb(212, 44, 44);
+    height: 7vh;
+    width: 300px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    font-size: medium;
+    cursor: pointer;
+}
+.ak
+{
+    margin-top: 0px;
+}
+.new
+{
+    color: aliceblue;
+}
+.rem
+{
+    margin-top: 15px;
+    
+    padding-right: 56px;
+    font-size: 16px;
+    color: #918a8a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rem a
+{
+    margin-left: 70px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  
+    color: #918a8a;
+}
+.rem a:hover{
+    text-decoration: underline;
+}
+.new{
+    margin-top: 90px;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: #918a8a;
+}
+.new a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.new a:hover
+{
+    text-decoration: underline;
+}
+.res
+{
+    color: #918a8a;
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 49px;
+}
+.res a{
+    text-decoration: none;
+  
+    color: rgb(83, 83, 221);
+}
+.res a:hover
+{
+    text-decoration: underline;
+}
+.box2
+{
+    width: 100%;
+    height: 35vh;
+    background-image: url(arr.jpg);
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgb(0 0 0 / 89%),rgb(0 0 0 / 78%)),url(fea1.jpg);
+}
+.call 
+{
+    color: #797373;
+    margin-left: 250px;
+    font-size: 17px;
+    font-family: sans-serif;
+    
+    padding-top: 10px;
+}
+.no:hover{
+    text-decoration: underline;
+}
+.tab
+{
+    color: #fff;
+}
+table, th, td {
+   
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 6vh;
+    padding-left: 110px;
+    color: #797373;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 200;
+
+}
+.eng button
+{
+   
+    margin-left: 250px;
+ 
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 200;
+   
+    width: 100px;
+    
+    height: 4vh;
+    background-color: #1c1a1a;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+    
